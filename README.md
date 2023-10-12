@@ -50,5 +50,5 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
 
 ## Dependencies:
 
-    Python 3.11.4
-    PyMySQL
+- Python 3.11.4
+- PyMySQL
