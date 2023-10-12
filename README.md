@@ -27,7 +27,7 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
     Get it start by entering mysql -u root 
     by entering next commands create and use Database "Office"
  
-    > Create database Office; 
+    > Create database Office; <br>
     > use office;
 
 3. **Create a table employee:**
