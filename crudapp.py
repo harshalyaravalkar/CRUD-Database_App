@@ -36,7 +36,7 @@ def deleterec(ids): #to delete a record
     db.close()
     print("Data deleted successfully..!")
 
-def readdata():
+def readdata(): # to display all records present in table
     db = getconnect()
     cr = db.cursor()
     sql = "select * from employee"
