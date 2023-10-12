@@ -26,8 +26,8 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
     start MYSQL and open its shell
     Get it start by entering mysql -u root 
     by entering next commands create and use Database "Office"
-     Create database Office;
-     use office;
+     > Create database Office;
+     > use office;
 
 3. **Create a table employee:**
     Now, being in databaseoffice we will need to create a table employee with columns Id, Firstname, Lastname, 
