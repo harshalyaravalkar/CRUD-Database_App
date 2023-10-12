@@ -26,26 +26,29 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
     start MYSQL and open its shell
     Get it start by entering mysql -u root 
     by entering next commands create and use Database "Office"
-    > Create database Office;
+    ##
+    > Create database Office; 
     > use office;
 
 3. **Create a table employee:**
     Now, being in databaseoffice we will need to create a table employee with columns Id, Firstname, Lastname, 
     Email, Address by following query.
+    ##
     > Create table employee ( id int (5), FirstName varchar (15), LastName varchar (15), Email varchar (20), Address varchar (20));
 
 4. **Run the crudapp.py file and execute queries of CRUD**
 
 ## Database Setup:
 
-    Make sure you have PyMySQL installed.
-    Create a database named "office" if it doesn't exist.
+- Make sure you have PyMySQL installed.
+- Create a database named "office" if it doesn't exist.
 
 ## Usage:
 
-    Run crud_app.py to launch the CRUD app for managing employee records.
-    Follow the prompts to create, read, update, and delete employee records.
+- Run crud_app.py to launch the CRUD app for managing employee records.
+- Follow the prompts to create, read, update, and delete employee records.
 
 ## Dependencies:
-    Python 3.11.4
-    PyMySQL
+
+- Python 3.11.4
+- PyMySQL
