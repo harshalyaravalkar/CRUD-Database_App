@@ -1,5 +1,5 @@
 # CRUD-Database_App
-Here this Repository contains a project of CRUD (Create, Read, Update, Delete) App for a SQL Database.
+This Python project is a CRUD (Create, Read, Update, Delete) application for managing employee records in a SQL database.
 
 # Employee Database Management App
 
