@@ -45,7 +45,7 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
 
 ## Usage:
 
-- Run crud_app.py to launch the CRUD app for managing employee records.
+- Run crudapp.py to launch the CRUD app for managing employee records.
 - Follow the prompts to create, read, update, and delete employee records.
 
 ## Dependencies:
