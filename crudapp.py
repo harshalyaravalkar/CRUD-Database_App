@@ -50,7 +50,7 @@ def readdata(): # to display all records present in table
     db.close()
 
 
-while True:
+while True: # Creating Menu for this app
     print("\n"," CRUD Database App ".center(40,"-"))
     print("\nUser Wants to - \n 1. Insert Records in Table \n 2. Update a record \n 3. Delete a record  \n 4. Display all records from table")
     n = input("Enter Your Selection: ")
@@ -96,5 +96,5 @@ while True:
         readdata()
         continue
 
-    else:
+    else: # Any key pressed other than 1,2,3,4 exists the app
         break
