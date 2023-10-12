@@ -31,12 +31,12 @@ This Python project is a CRUD (Create, Read, Update, Delete) app that manages re
     > use office;
 
 3. **Create a table employee:**
-    Now, being in databaseoffice we will need to create a table employee with columns Id, Firstname, Lastname, 
+    Now, being in database office we will need to create a table employee with columns Id, Firstname, Lastname, 
     Email, Address by following query.
 
     > Create table employee ( id int (5), FirstName varchar (15), LastName varchar (15), Email varchar (20), Address varchar (20));
 
-4. **Run the crudapp.py file and execute queries of CRUD**
+4. **Run the crudapp.py file and execute queries through CRUD app**
 
 ## Database Setup:
 
