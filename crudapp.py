@@ -96,5 +96,5 @@ while True: # Creating Menu for this app
         readdata()
         continue
 
-    else: # Any key pressed other than 1,2,3,4 exists the app
+    else: # Any input other than 1,2,3,4 exists the app
         break
