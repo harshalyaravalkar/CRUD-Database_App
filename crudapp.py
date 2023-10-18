@@ -1,8 +1,8 @@
 
 import pymysql as p
 
-# importing pymysql to establish a connection between our SQL database and this python programme.
-# Whatever changes we perform from queries in this file those are reflected in our sql database "Office".
+'''importing pymysql to establish a connection between our SQL database and this python programme.
+ Whatever changes we perform from queries in this file those are reflected in our sql database "Office".'''
 
 def getconnect():
     return p.connect (host="localhost", user="root", password = "", database="Office") # making connection to SQL database
@@ -10,7 +10,8 @@ def getconnect():
     
 def insertrec(data): # to insert a record in table employee in columns id, firstname, lastname, email and address
     db = getconnect() # get connection of database and save it in variable db
-    cr = db.cursor() # call cursor function to perform sql queries on table and gt result back # A cursor in SQL Server is a database object that reads one row at a time 
+    cr = db.cursor() 
+    '''call cursor function to perform sql queries on table and gt result back. A cursor in SQL Server is a database object that reads one row at a time '''
     sql = "insert into employee values (%s, %s, %s, %s, %s)" # chronologically inserts elements from data list in place of %s 
 
     cr.execute(sql,data) # executes sql query with data parameter
@@ -43,7 +44,8 @@ def readdata(): # to display all records present in table
     cr.execute(sql)
     data = cr.fetchall()
     a,b,c,d,e = "id","FirstName","LastName","Email","Address"  # Here we can observe Python's multiple variable assignment feature
-    print(f"\n\n{a:^5} {b:^15} {c:^15} {d:^20} {e:^30} ") # prints Column names while displaying the data in table # provides designated space for each column and thus makes printed data look organised
+    print(f"\n\n{a:^5} {b:^15} {c:^15} {d:^20} {e:^30} ") 
+    '''prints Column names for the data in table. provides designated space for each column and thus makes printed data look organised.'''
     for i,fn,ln,e,a in data:
         print(f"{i:^5} {fn:^15} {ln:^15} {e:^20} {a:^30}\n")
     db.commit()
